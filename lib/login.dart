@@ -80,7 +80,7 @@ class _loginState extends State<login> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Text("don't have an account?   "),
+                          Text("Don't have an account?   "),
                           InkWell(
                             onTap: (){
                               Navigator.push(
@@ -90,7 +90,7 @@ class _loginState extends State<login> {
                             },
                             child: Text('Register',
                               style: TextStyle(
-                                  fontSize: 15,
+                                  fontSize: 16,
                                   color: Colors.indigoAccent
                               ),
                             ),
@@ -99,7 +99,7 @@ class _loginState extends State<login> {
                       ),
 
                       SizedBox(
-                        height: 20,
+                        height: 40,
                       ),
 
                       ElevatedButton(onPressed: (){
